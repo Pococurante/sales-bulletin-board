@@ -20,7 +20,7 @@
             overflow: hidden;
         }
         .header {
-            background-color: #4CAF50;
+            background-color: #1F3A93; /* Dark blue */
             color: white;
             padding: 20px;
             text-align: center;
@@ -32,7 +32,7 @@
             background-color: #f9f9f9;
             margin-bottom: 20px;
             padding: 15px;
-            border-left: 5px solid #4CAF50;
+            border-left: 5px solid #1F3A93; /* Dark blue */
         }
         .topic h2 {
             margin: 0;
@@ -44,11 +44,13 @@
             color: #666;
         }
         .link {
-            display: inline-block;
-            margin-top: 10px;
-            color: #4CAF50;
+            display: block; /* Changed to block for separation */
+            margin-top: 20px;
+            color: #1F3A93; /* Dark blue */
             text-decoration: none;
             font-weight: bold;
+            font-size: 1.2em; /* Larger font size */
+            text-align: center; /* Center the link */
         }
         .link:hover {
             text-decoration: underline;
@@ -69,9 +71,10 @@
             </div>
             <div class="topic">
                 <h2>New Window Series From Pella - Available in August</h2>
-                <a href="#" class="link">Learn more</a>
             </div>
+            <a href="#" class="link">Learn more</a> <!-- Moved link outside of topics -->
         </div>
     </div>
 </body>
 </html>
+
